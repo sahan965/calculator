@@ -1,14 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package add;
 import java.util.Scanner;
 
-/**
- *
- * @author SAHAN M DISSANAYAKE
- */
+
 public class Add {
    
     public void addition(int a,int b){
@@ -24,9 +17,7 @@ public class Add {
         System.out.println("Answer: " + a/b);
     }
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         Add objone = new Add();
@@ -53,7 +44,7 @@ public class Add {
             
         }
         
-        // TODO code application logic here
+        
     }
     
 }
